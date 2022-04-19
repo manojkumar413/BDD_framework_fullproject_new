@@ -1,0 +1,8 @@
+<suite name="demo.nopecommerce regression testing" verbose="1" >
+
+    <test name="Regression">
+        <classes>
+            <class name= "runner.RunnerTestNG"/>
+        </classes>
+    </test>
+</suite>

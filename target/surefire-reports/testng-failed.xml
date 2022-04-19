@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [demo.nopecommerce regression testing]">
+  <test thread-count="5" verbose="0" name="Regression(failed)">
+    <classes>
+      <class name="runner.RunnerTestNG">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="4"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.RunnerTestNG -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [demo.nopecommerce regression testing] -->

@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 157.585 s <<< FAILURE! - in TestSuite
+runner.RunnerTestNG.runScenario["user could select Euro instead of US Dollar", "Optional[change the currency]"](5)  Time elapsed: 10.668 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
